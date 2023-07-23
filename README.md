@@ -52,18 +52,18 @@ my-project/
 
 You can now start using Sass in your project. As a test, create an empty div with an h1 tag saying "Hello World" in the `App.jsx` file.
 
-    ```jsx
-    function App() {
-      return (
-        <div>
-          <h1>Hello World</h1>
-        </div>
-      );
-    }
+ ```
+ function App() {
+   return (
+     <div>
+       <h1>Hello World</h1>
+     </div>
+   );
+ }
 
-    export default App;
-    ```
-"variables.scss" file:
+ export default App;
+ ```
+Example of the variables.scss file:
 
 ```
 // Declare SCSS variables
@@ -94,17 +94,17 @@ h1 {
 ```
 To use this style, import it into `App.jsx` by adding `import './assets/styles/main.scss'`.
 
-    ```jsx
-    import './assets/styles/main.scss';
+ ```
+ import './assets/styles/main.scss';
 
-    function App() {
-      return (
-        <div>
-          <h1>Hello World</h1>
-        </div>
-      );
-    }
+ function App() {
+   return (
+     <div>
+       <h1>Hello World</h1>
+     </div>
+   );
+ }
 
-    export default App;
-    ```
+ export default App;
+ ```
 
