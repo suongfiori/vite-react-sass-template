@@ -41,7 +41,7 @@ my-project/
 6. To start the project, run `npm run dev`.
 7. Open the project in Visual Studio Code: `code .`
 
-#### In VSCode
+#### In Visual Studio Code:
 
 8. Remove any unused content/files (e.g states, logos and CSS files).
 9. Create a new folder "styles" inside the "assets" folder and add a "main.scss" file.
@@ -92,10 +92,10 @@ h1 {
 }
 
 ```
-To use this style, import it in your `App.jsx` by adding `import './assets/styles/main.scss'`.
+To use this style, import it into `App.jsx` by adding `import './assets/styles/main.scss'`.
 
     ```jsx
-    import './styles/main.scss';
+    import './assets/styles/main.scss';
 
     function App() {
       return (
