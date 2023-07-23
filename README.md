@@ -1,6 +1,6 @@
-# Vite React JavaScript with Sass Setup Guide
+# Vite React JavaScript with Sass Setup
 
-This guide provides step-by-step instructions on creating a React JavaScript project using Vite and adding Sass to it.
+Step-by-step template for setting up a React JavaScript project with Vite and Sass
 
 ## Project Structure
 
