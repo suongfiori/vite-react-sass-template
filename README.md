@@ -44,9 +44,9 @@ my-project/
 #### In Visual Studio Code:
 
 8. Remove any unused content/files (e.g states, logos and CSS files).
-9. Create a new folder "styles" inside the "assets" folder and add a "main.scss" file.
-10. Create a new file "variables.scss" to store all Sass variables
-11. Import "variables.scss" to "main.scss" file: `@use './variables.scss' as *;`
+9. Inside the 'assets' folder, create a 'styles' subfolder and add two files: 'main.scss' and 'variables.scss'.
+   The 'variables.scss' file will be used to store all Sass variables.
+10. Import "variables.scss" to "main.scss" file: `@use './variables.scss' as *;`
 
 #### Testing
 
